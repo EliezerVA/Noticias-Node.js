@@ -1,0 +1,74 @@
+.division{
+    background-color: black; height: 670px; width: .1px; position: absolute; top: 200px; left: 48%;
+}
+
+.regis{
+    font-size: 29px; position: absolute; font-weight: bold; color: black; top: 13%; left: 15%;
+    display: block;
+}
+
+.registro{
+    position: absolute;
+    width: 440px;
+    height: 700px;
+    top: 30%;
+    left: 14%;
+    
+}
+
+.registro, input{
+
+    width: 400px;
+}
+
+.registro, button{
+    width: 390px;
+    
+    
+}
+
+.regis2{
+    font-size: 29px; position: absolute; font-weight: bold; color: black; top: 13%; left: 70%;
+
+
+}
+
+.form2{
+    position: absolute;
+    width: 410px;
+    height: 700px;
+    top: 30%;
+    left: 65%;
+}
+
+@media (max-width: 600px){
+
+    .form2{
+        position: absolute;
+        left: 0%;
+        top: 96%;
+        margin-left: 14%;
+    }
+
+    .division{
+        position: absolute;
+        width: 450px;
+        height: 0.1px;
+        left: 0%;
+        margin-left: 4%;
+        top: 80%;
+        box-shadow: 2px 2px 2px 1px rgba(7, 7, 7, 0.2);
+    }
+
+    .regis2{
+        position: absolute;
+        left: 0%;
+        top: 84%;
+        margin-left: 14%;
+
+    }
+    .regis{
+        display: block;
+    }
+}
+

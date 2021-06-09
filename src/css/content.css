@@ -1,0 +1,188 @@
+.cabezera{
+    background: red;
+    width: 1680px;
+    height: 120px;
+    position: absolute;
+    top: 14%;
+    left: 5%;
+    right: 5%;
+    box-shadow: 3px 3px 3px 3px rgba(7, 7, 7, 0.2);
+    display: block;
+    
+    
+}
+
+.hilo{
+    display: block;
+}
+
+.barra{
+    background: white;
+    width: 1680px;
+    height: 40px;
+    position: absolute;
+    left: 5%;
+    top: 25%;
+    box-shadow: 3px 3px 3px 3px rgba(7, 7, 7, 0.2);
+    display: block;
+}
+
+.noticia-p{
+    
+    
+   /*background-image: url(../img/covi.jpg); */
+    position: absolute;
+    background: black;
+
+    top: 33%;
+    left: 5%;
+    
+
+}
+
+.noticia2{
+    position: absolute;
+    top: 33%;
+
+    left: 53%;
+
+}
+
+.sid{
+    width: 760px;
+    height: 400px;
+    position: absolute;
+}
+
+.s1{
+    width: 760px;
+    height: 400px;
+    position: absolute;
+}
+
+.capa{
+    width: 760px;
+    height: 400px;
+    background: black;
+    position: absolute;
+    opacity: 0.3;
+}
+
+.capa2{
+    width: 760px;
+    height: 400px;
+    background: black;
+    position: absolute;
+    opacity: 0.3;
+}
+
+.nos{
+    position: absolute;
+    font-size: 30px;
+    width: 760px;
+    color:white;
+    top: 300px;
+    text-align: center;
+}
+.ns{
+    position: absolute;
+    font-size: 30px;
+    width: 760px;
+    color: white;
+    top: 300px;
+    text-align: center;
+}
+
+/*  box-shadow: 3px 3px 3px 3px rgba(7, 7, 7, 0.2);
+} */
+
+@media (max-width: 600px){
+    
+
+    .cabezera{
+       width: 390px;
+       left: 10%;
+       position: absolute;
+    }
+
+    .barra{
+        background: white;
+        width: 390px;
+       
+       
+        left: 10.01%;
+        top: 29%;
+      
+        
+        position: absolute;
+    }
+
+    .sid{
+        width: 420px;
+        height: 320px;
+        position: absolute;
+        
+        
+    }
+
+    .capa{
+        width: 420px;
+        height: 320px;
+        position: absolute;
+        
+    }
+    .capa2{
+        width: 420px;
+        height: 320px;
+        background: black;
+        position: absolute;
+        opacity: 0.3;
+    }
+
+    .nos{
+        
+        width: 220px;
+        font-size: 10px;
+        position: absolute;
+        bottom: 100px;
+        
+    }
+
+    .ns{
+        position: absolute;
+        font-size: 10px;
+        width: 220px;
+        color: white;
+        
+        text-align: center;
+    }
+
+    .noticia-p{
+        width: 420px;
+        top: 44%;
+        position: absolute;
+        left: 34px;
+    }
+
+    .noticia2{
+        position: absolute;
+        margin-top: 100%;
+        left: 1px;
+        margin-left: 6.6%;
+    
+    }
+    .s1{
+        width: 420px;
+        height: 320px;
+        position: absolute;
+    
+
+    }
+    }
+
+    
+
+    
+    
+    
+
